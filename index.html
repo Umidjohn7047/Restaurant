@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/wavy-sec-image.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Flask Project</title>
+</head>
+<body>
+    <div class="popup-form" id="popup">
+        <form id="sub" class="form" autocomplete="off" action="">
+            <div id="back">⨉</div>
+            <h1>Register Form</h1>
+            <div class="fname">
+                <input aria-autocomplete="list" type="text" name="FirstName" id="fn" required>
+                <label for="fn">Firstname</label>
+            </div>
+            <div class="lname">
+                <input aria-autocomplete="list" type="text" name="LastName" id="ln" required>
+                <label for="ls">Lastname</label>
+            </div>
+            <div class="gmail">
+                <input aria-autocomplete="list" type="email" name="Email" id="el" required>
+                <label for="el">Email</label>
+            </div>
+            <div class="pword">
+                <input aria-autocomplete="list" type="password" name="Password" id="pw" required>
+                <label for="pw">Password</label>
+            </div>
+            <input class="order-btn" type="submit" value="SUBMIT">
+        </form>
+    </div>
+    <header  id="home">
+        <nav id="navbar">
+            <div class="nav" data-aos="fade-down">
+                <img src="./images/Logo.png" alt="">
+                <div class="nav-items">
+                    <input type="checkbox" name="" id="check">
+                    <label for="check">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </label>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#promo">Promo</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <img src="./images/search-icon.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="info" data-aos="fade-up">
+                <h1 data-aos="fade-up-right">Title Here</h1>
+                <p data-aos="fade-up-left">Lorem ipsum dolor sit amet, consectur <br>
+                adipiscing elit.Vivamus lacinia odio vitae <br>
+                vestibulum vestibulum</p>
+                <a href="#contact" class="order-btn">ORDER NOW</a>
+            </div>
+        </div>
+    </header>
+    <section class="seller" id="product">
+        <h1 data-aos="fade-up" data-aos-anchor-placement="center-center">Best Seller</h1>
+        <p data-aos="fade-up" data-aos-anchor-placement="center-center">Lorem ipsum dolor sit amet, consectur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum</p>
+        <div class="cards">
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="img">
+                    <img src="./images/card-1.jpg" alt="">
+                </div>
+                <h2>Title Here</h2>
+                <p>Lorem ipsum dolor sit amet, <br>
+                     consectur adipiscing elit. </p>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="img">
+                    <img src="./images/card-2.jpg" alt="">
+                </div>
+                <h2>Title Here</h2>
+                <p>Lorem ipsum dolor sit amet, <br>
+                     consectur adipiscing elit. </p>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="img">
+                    <img src="./images/card-3.jpg" alt="">
+                </div>
+                <h2>Title Here</h2>
+                <p>Lorem ipsum dolor sit amet, <br>
+                     consectur adipiscing elit. </p>
+            </div>
+        </div>
+    </section>
+    <section class="taste">
+        <div class="img">
+            <img src="./images/wavy-sec-image.jpg" alt="">
+        </div>
+        <div class="info" data-aos="fade-up" data-aos-anchor-placement="center-center">
+            <h1>Oriental Taste</h1>
+            <p>Lorem ipsum dolor sit amet, consectur <br>
+            adipiscing elit. Vivamus lacinia odio vitae ves- <br>
+            tibulum vestibulum</p>
+            <a href="#contact" class="order-btn">ORDER NOW</a>
+        </div>
+    </section>
+    <section class="statistics" id="promo">
+        <h1 data-aos="fade-up" data-aos-anchor-placement="center-center">Statistics</h1>
+        <p data-aos="fade-up" data-aos-anchor-placement="center-center">Lorem ipsum dolor sit amet, consectur adipiscing elit. Vivamus <br>
+            lacinia odio vitae vestibulum vestibulum</p>
+        <div class="circles">
+            <div class="circle">
+                <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                    <h2>123</h2>
+                    <p>OUTLETS</p>
+                </div>
+            </div>
+            <div class="circle">
+                <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                    <h2>100</h2>
+                    <p>CHEF</p>
+                </div>
+            </div>
+            <div class="circle">
+                <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                    <h2>300</h2>
+                    <p>MENU</p>
+                </div>
+            </div>
+            <div class="circle">
+                <div data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+                    <h2>30</h2>
+                    <p>COUNTRY</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="taste grill">
+        <div class="info" data-aos="fade-up" data-aos-anchor-placement="center-center">
+            <h1>Chicken Grill</h1>
+            <p>Lorem ipsum dolor sit amet, consectur <br>
+            adipiscing elit. Vivamus lacinia odio vitae ves- <br>
+            tibulum vestibulum</p>
+            <a href="#contact" class="order-btn">ORDER NOW</a>
+        </div>
+        <div class="img">
+            <img src="./images/grill.jpg" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <p data-aos="fade-up" data-aos-anchor-placement="center-center">Lorem ipsum dolor sit amet, consectur <br>
+            adipiscing elit. Vivamus lacinia odio vitae <br>
+            vestibulum vestibulum</p>
+        <h1 data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">Lenora Fields</h1>
+    </section>
+    <section class="email" id="contact">
+        <h1 data-aos="fade-up" data-aos-anchor-placement="top-center">Subscribe</h1>
+        <p data-aos="fade-up" data-aos-anchor-placement="top-center">Lorem ipsum dolor sit amet, consectur adipiscing elit. <br>
+            Vivamus lacinia odio vitae vestibulum vestibulum</p>
+        <div class="go-form">
+            <button class="order-btn" data-aos="fade-up" data-aos-anchor-placement="center-center" id="go-form">SUBSCRIBE</button>
+        </div>
+    </section>
+    <footer>
+        <div class="main" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <h1>Title here</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ab voluptates, molestias totam laborum
+                sapiente error quos atque. Vel saepe maiores quas.</p>
+            <div class="icons">
+                <img src="./images/instagram.png" alt="">
+                <img src="./images/facebook.png" alt="">
+                <img src="./images/twitter.png" alt="">
+                <img src="./images/Whatsapp.png" alt="">
+            </div>
+        </div>
+        <div class="navs" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <h1>About</h1>
+            <p><a href="">History</a></p>
+            <p><a href="">Our Team</a></p>
+            <p><a href="">BrandGuideliness</a></p>
+            <p><a href="">Terms&Condition</a></p>
+            <p><a href="">Privacy Policy</a></p>
+        </div>
+        <div class="navs" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <h1>Services</h1>
+            <p><a href="">How to order</a></p>
+            <p><a href="">Our Product</a></p>
+            <p><a href="">Order Status</a></p>
+            <p><a href="">Promo</a></p>
+            <p><a href="">Payment Method</a></p>
+        </div>
+        <div class="navs" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <h1>Other</h1>
+            <p><a href="">Contact Us</a></p>
+            <p><a href="">Help</a></p>
+            <p><a href="">Privacy</a></p>
+        </div>
+    </footer>
+    <script src="./aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
